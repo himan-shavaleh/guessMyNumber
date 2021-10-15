@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #333;
+    color: #eee;
+    /* padding: 10px; */
+    font-family: 'Noto Sans Mono', monospace;
+}
+#header{
+padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#header #again{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+h1{
+    margin: 40px 0;
+    text-align: center;
+}
+
+#line{
+    width: 100%;
+    height: 5px;
+    background: #eee;
+position: relative;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+#line>div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    top: -400%;
+    color: #333;
+    
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+line-height: 20px;
+}
+#game-board{
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#game-board .left input{
+width: 100px;
+margin: 10px 0;
+}
+.right{
+    font-size: 0.7rem;
+}
